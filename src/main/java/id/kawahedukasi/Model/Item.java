@@ -20,9 +20,6 @@ public class Item extends PanacheEntityBase {
     @Column(name="name")
     public String name;
 
-    @Column(name="email")
-    public String email;
-
     @Column(name="count")
     public Integer count;
 

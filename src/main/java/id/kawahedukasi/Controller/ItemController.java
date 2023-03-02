@@ -35,7 +35,6 @@ public class ItemController {
     public Response update(Map<String, Object> request){
         Item item = new Item();
         item.name = request.get("name").toString();
-        item.email = request.get("email").toString();
         item.count = Integer.parseInt(request.get("count").toString());
         item.price = Long.parseLong(request.get("price").toString());
         item.type = request.get("type").toString();
@@ -57,7 +56,6 @@ public class ItemController {
         }
 
         item.name = request.get("name").toString();
-        item.email = request.get("email").toString();
         item.count = Integer.parseInt(request.get("count").toString());
         item.price = Long.parseLong(request.get("price").toString());
         item.type = request.get("type").toString();
