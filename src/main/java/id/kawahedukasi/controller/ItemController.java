@@ -1,6 +1,6 @@
-package id.kawahedukasi.Controller;
+package id.kawahedukasi.controller;
 
-import id.kawahedukasi.Model.Item;
+import id.kawahedukasi.model.Item;
 
 import javax.transaction.Transactional;
 import javax.ws.rs.*;

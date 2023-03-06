@@ -1,4 +1,4 @@
-package id.kawahedukasi.Model;
+package id.kawahedukasi.model;
 
 import io.quarkus.hibernate.orm.panache.PanacheEntityBase;
 import org.hibernate.annotations.CreationTimestamp;
